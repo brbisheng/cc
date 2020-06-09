@@ -1,5 +1,17 @@
 # cc
 
+1. panel data format: dummy of doc, dummy of sentence order,
+2. animal, 
+3. scene
+4. thing,
+  - alcohol
+  - 
+5. structure
+  - 对偶,和谁
+  - 
+6. location
+7. time
+8. number
 
 《少年游·红稠绿暗遍天涯》
 -红稠-绿暗-遍-天涯，-春色-在-谁家？-花谢-人稀，-柳浓-莺懒，-烟景-属-蜂衙。
