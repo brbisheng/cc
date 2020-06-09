@@ -3,17 +3,36 @@
 </head>
 
 <style> 
-    .cl = {
+    #demo = {
         margin:auto;
         width:80%;
     }
 </style>
 <body id = 'demo' style="background-color:lightyellow;">
 
-<div class = 'cl' > 
+<div id = 'cl'> 
     徐文长, 
-    <a href = '/cc/p1/yangshen/index.html'>杨慎</a>
+    <span class = 'dropdown' href = '/cc/p1/yangshen/index.html'> 杨慎 </a>
 </div>
+
+<div class="dropdown">
+    <button class="dropbtn">杨慎</button>
+    <div class="dropdown-content" id = 'ys'>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    <button class="dropbtn">徐渭</button>
+    <div class="dropdown-content" id = 'xw'>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+        <a href="#">Link 6</a>
+    </div>
+    
+</div>
+    
+    
+    
 <button onclick="myFunction()">Click me</button>
     
 </body>
