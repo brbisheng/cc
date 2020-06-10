@@ -54,8 +54,8 @@
             // if (inputVal ==="hello") {alert(inputVal);}
             // Displaying the value
             // if (inputVal ==="hello") {alert(inputVal);}
-            var t = $.getJSON("p1/yangshen/qijue/example.json", function(json){return(json.type);});
-            $.getJSON("p1/yangshen/qijue/example.json", function(json){alert(json.name);});
+            var t = $.getJSON("p1/yangshen/qijue/example.json", function(json){return(json.p1.type);});
+            $.getJSON("p1/yangshen/qijue/example.json", function(json){alert(json.p1.name);});
             
             var iDiv = document.createElement('div');
             iDiv.id = 'block';
