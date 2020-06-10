@@ -12,7 +12,7 @@
 }
 
 #this_one {
-  width: 15%;
+  width: 35%;
   height: 200px;
   /*background:red;*/
   float: left;
@@ -20,12 +20,13 @@
 }
 
 #this_two {
-  margin-left: 15%;
+  margin-left: 35%;
   height: 200px;
-  /*background: black;*/
+  /*background: black;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
+  text-align:center;
   border-style: outset;
 }
 </style>
@@ -33,6 +34,9 @@
 
 <section id="this_container">
   <div id="this_one">
+      <input type="text" placeholder="Type something..." id="myInput">
+      <button type="button" onclick="getInputValue();">Get Value</button>
+      
   </div>
   <div id="this_two">
       <h1> An Example </h1>
@@ -41,4 +45,14 @@
           <span>举头望明月，低头思故乡。</span>
   </div>
 </section>
+    
+    <script>
+        function getInputValue(){
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("myInput").value;
+            
+            // Displaying the value
+            alert(inputVal);
+        }
+    </script>
 </body>
