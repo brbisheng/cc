@@ -54,7 +54,15 @@
             // if (inputVal ==="hello") {alert(inputVal);}
             // Displaying the value
             // if (inputVal ==="hello") {alert(inputVal);}
-            $.getJSON("p1/yangshen/qijue/example.json", function(json){alert(json.yangshen);})
+            var t = $.getJSON("p1/yangshen/qijue/example.json", function(json){return(json.type);});
+            $.getJSON("p1/yangshen/qijue/example.json", function(json){alert(json.name);});
+            
+            var iDiv = document.createElement('div');
+            iDiv.id = 'block';
+            iDiv.className = 'block';
+            iDiv.innerHTML = t;
+            document.getElementsByTagName('body')[0].appendChild(iDiv);
+            
 
             
         }
