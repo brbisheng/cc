@@ -4,36 +4,39 @@
 </head>
 
 <style> 
-    #demo = {
-        margin:auto;
-        width:80%;
-    }
+#this_container {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+}
+
+#this_one {
+  width: 15%;
+  height: 200px;
+  background: red;
+  float: left;
+}
+
+#this_two {
+  margin-left: 15%;
+  height: 200px;
+  background: black;
+}
 </style>
 <body id = 'demo' style="background-color:lightyellow;">
 
-<div id = 'cl'> 
-    徐文长, 
-    <span class = 'dropdown' href = '/cc/p1/yangshen/index.html'> 杨慎 </a>
-</div>
-
-<div class="dropdown">
-    <button class="dropbtn">杨慎</button>
-    <div class="dropdown-content" id = 'ys'>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-    </div>
-    <button class="dropbtn">徐渭</button>
-    <div class="dropdown-content" id = 'xw'>
-        <a href="#">Link 4</a>
-        <a href="#">Link 5</a>
-        <a href="#">Link 6</a>
-    </div>
-    
-</div>
-    
-    
-    
-<button onclick="myFunction()">Click me</button>
-    
+<section id="this_container">
+  <div id="this_one">
+  </div>
+  <div id="this_two">
+      <h1 style = "text-align:center"> An Example </h1>
+      <div> 
+          <span>床前明月光，疑是地上霜。</span>
+          <br>
+          <span>举头望明月，低头思故乡。</span>
+          
+      </div>
+  </div>
+</section>
 </body>
